@@ -9,6 +9,8 @@ public class DelayedMessageProcessor extends BasicIdMessageProcessor {
 
     private final long delay;
 
+    private final int aaa = 100;
+
     public DelayedMessageProcessor(Duration delay) {
         this.delay = delay.toMillis();
     }
